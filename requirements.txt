@@ -1,0 +1,3 @@
+chailit
+python-dotenv
+google-generativeai

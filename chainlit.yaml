@@ -1,22 +1,22 @@
-chainlit: 2.0.0
+chainlit: 2.4.1
 
 # Interface Setting
 ui:
   name: "W0!z Chatbot"
   discription: "A Simple Chatbot Powered by Google's Gemini Model"
 
-# Message Setting
+# Message settings
 default_expand_messages: true
 
 
 # Auth Setting
 auth:
   required: true
-  providers:
+  providers: 
     - github
 
 # OAuth Configuration
 oauth_providers:
   github:
     client_id: ${OAUTH_GITHUB_CLIENT_ID}
-    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET}
+    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET} 

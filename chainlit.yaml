@@ -1,6 +1,6 @@
 chainlit: 2.4.1
 
-# Interface Setting
+# Interface settings
 ui:
   name: "W0!z Chatbot"
   discription: "A Simple Chatbot Powered by Google's Gemini Model"
@@ -8,8 +8,7 @@ ui:
 # Message settings
 default_expand_messages: true
 
-
-# Auth Setting
+# Auth settings
 auth:
   required: true
   providers: 
